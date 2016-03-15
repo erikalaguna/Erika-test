@@ -1,0 +1,525 @@
+/*
+Theme Name:     Simply180
+Author: 		Simply180
+Template:       kidslife
+Version:        1.0
+*/
+@import url("../kidslife/style.css");
+body {
+    background: #f0f3f3s;
+}
+
+p, li, .dt-sc-tabs-vertical-frame-content {
+    line-height: 1.6em;
+}
+p {
+    margin: 0px 0px 30px;
+}
+ol {
+    
+    padding-left: 80px;
+}
+
+.post-edit-link {
+	display:none;
+}
+
+.page-id-1883 #main,
+.page-id-330 #main {
+    padding-bottom: 0;
+}
+
+.page-id-330 .breadcrumb-section,
+.page-id-2201 .breadcrumb-section,
+.page-id-2202 .breadcrumb-section,
+.page-id-2233 .breadcrumb-section {
+	margin-bottom: 0;
+	    padding: 30px 0px;
+}
+
+
+.fullwidth-section .container, #footer .footer-widgets-wrapper .container {
+    line-height: 26px;
+}
+
+header {
+    background: url(images/header-bg.jpg) repeat 
+}
+
+header .contact-details {
+    margin: 20px 0px;
+}
+.woocommerce .cart .button, .woocommerce-page .cart .button {
+	 
+}
+
+.single_add_to_cart_button {
+	background-color: #ed1c24 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #5a5a5a;
+}
+
+h2 {
+    font-size: 55px;
+	line-height:48px !important;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.product-container .product-details h3 {
+    color: #5a5a5a;
+	    font-weight: 700 !important;
+    line-height: 1.6em;
+    font-size: 25px !important;
+}
+
+ul.products li .product-details .price, ul.products li .product-details .price ins, ul.products li .product-details .price .amount,
+#primary.with-right-sidebar .product-wrapper.column.dt-sc-one-fourth .product-details .price, #primary.with-right-sidebar .product-wrapper.column.dt-sc-one-fourth .product-details .price ins, #primary.with-right-sidebar .product-wrapper.column.dt-sc-one-fourth .product-details .price .amount, #primary.with-left-sidebar .product-wrapper.column.dt-sc-one-fourth .product-details .price, #primary.with-left-sidebar .product-wrapper.column.dt-sc-one-fourth .product-details .price ins, #primary.with-left-sidebar .product-wrapper.column.dt-sc-one-fourth .product-details .price .amount, #primary.content-full-width .product-wrapper.column.dt-sc-one-fourth .product-details .price, #primary.content-full-width .product-wrapper.column.dt-sc-one-fourth .product-details .price ins, #primary.content-full-width .product-wrapper.column.dt-sc-one-fourth .product-details .price .amount,
+table.cart td.product-name a, .woocommerce .cart-collaterals .cart_totals th , .woocommerce .cart .button, .woocommerce-page .cart .button, .woocommerce .cart input.button, .woocommerce-page .cart input.button, .woocommerce .cart-collaterals .cart_totals a.button.alt, .woocommerce-page .cart-collaterals .cart_totals a.button.alt, .woocommerce #payment #place_order, .woocommerce-page #payment #place_order , .woocommerce table.shop_table th, .woocommerce-page table.shop_table th, .woocommerce .button, .woocommerce-page .button{
+	font-size: 25px
+}
+
+#main-menu > ul.menu > li.current_page_item.red > a, #main-menu > ul.menu > li.current_page_ancestor.red > a, #main-menu > ul.menu > li.current-menu-item.red > a, #main-menu > ul.menu > li.current-menu-ancestor.red > a, #main-menu > ul.menu > li.red > a:hover, #main-menu > ul > li.red:hover > a, #main-menu ul.menu li.current_page_item.red ul.sub-menu li a:hover, #main-menu ul.menu li.current_page_item.red ul.sub-menu li.current_page_item > a, .image-overlay.red a, #main-menu ul.menu li.red ul.sub-menu li.current_page_item > a, #main-menu ul.menu li.red ul.sub-menu li.current_page_item ul.sub-menu li a:hover, #main-menu > ul.menu > li.current_page_ancestor.red > ul.sub-menu li.current_page_item > a, #main-menu > ul.menu > li.current_page_ancestor.red > ul.sub-menu li.current-menu-item > a, #main-menu > ul.menu > li.current_page_ancestor.red > ul.sub-menu > li.current-menu-item > a, #main-menu > ul.menu li.red.current-menu-ancestor ul.sub-menu li.current-menu-item > a, #main-menu > ul.menu > li.current-menu-item.red > ul.sub-menu > li > a:hover, #main-menu > ul.menu li.red.current-menu-ancestor ul.sub-menu li a:hover, #main-menu > ul.menu li.red.current-menu-item ul.sub-menu li ul.sub-menu li a:hover, #main-menu ul li.red.current-menu-ancestor li.current-menu-ancestor > a {
+    color: #ed1c24;
+}
+
+#main-menu > ul.menu > li.red > a {
+    border-color: #ed1c24;
+}
+
+#main-menu > ul.menu > li.yellow > a {
+    border-color: #fed060;
+}
+
+#main-menu > ul.menu > li.blue > a {
+    border-color: #0091d9;
+}
+
+.contact-details a {
+	color: #3b4a50;
+}
+
+.our-story {
+ margin: 0 8% !important;
+ background-color: #fff;
+     padding: 40px 60px;
+	 -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.our-story p {
+	color: #3b4a50 !important
+}
+
+.home-product img{
+	 -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+border-radius: 15px;
+}
+
+.blue-title {
+	color: #0091d9 !important;
+}
+
+.dt-sc-title:after {
+    background-image: url( images/titles_bg.png);
+	background-color: transparent !important
+}
+
+.home-bullets .dt-sc-ico-content.type2 .icon {
+	    width: 20px;
+		margin-right: 10px;
+}
+
+.home-bullets .dt-sc-ico-content.type2 .icon span {
+	width: 20px;
+	border:none;
+	border-color: transparent;
+	background-color:transparent !important;
+	color: #fdbb17;
+}
+
+.home-bullets .fa-bullseye:before {
+    content: "\f005";
+}
+
+.home-testimonial .dt-sc-testimonial blockquote{
+	    background-color: #878888 !important;
+}
+
+.dt-sc-testimonial .author img {
+    border: 4px solid #878888;
+}
+
+.home-testimonial .dt-sc-testimonial blockquote:after{
+border-color: #878888 transparent transparent !important; 
+}
+
+footer {
+   padding: 0;
+    float: left;
+    clear: both;
+    background-image: none;
+}
+
+footer:before {
+    background: none
+}
+
+.footer-widgets-wrapper {
+    padding-bottom: 0;
+}
+
+.our-story a{
+	border:2px solid #f3332e;
+	border-color: #f3332e !important;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	
+}
+
+.nl-signup {
+	padding:30px 0 10px;
+}
+
+.home-bullets ul{
+	    padding-left: 10px;
+}
+
+.home-bullets li{
+    padding-left: 5px;
+}
+
+.home-bullets .fa-li,
+.flavors .fa-li,
+.ingredients .fa-li,
+.why-protein .fa-li{
+	    color: #fdbb17;
+}
+
+blockquote.yellow {
+    background: #fdbb17;
+	padding:20px 60px;
+	margin-bottom:0;
+	margin: 0 -30px 0 -30px;
+}
+
+
+blockquote.yellow  q {
+    line-height: 32px;
+    font-size: 25px;
+	font-family: Georgia, Times, "Times New Roman", serif
+	
+}
+blockquote cite {
+    font-size: 25px;
+}
+
+.table-comparison .dt-sc-price{
+	font-size: 25px;
+	font-weight: normal;
+	
+}
+
+.table-comparison  .dt-sc-price,
+.table-comparison  .dt-sc-price:hover{
+    padding:20px;
+}
+
+.table-comparison .dt-sc-buy-now,
+.table-comparison .dt-sc-price span {
+	display: none;
+}
+
+.table-comparison .dt-sc-pr-tb-col.blue .dt-sc-tb-header .dt-sc-price, 
+.table-comparison .dt-sc-pr-tb-col.blue .dt-sc-buy-now .dt-sc-button {
+    background: #0052b9;
+}
+
+.table-comparison .dt-sc-pr-tb-col.blue .dt-sc-tb-content li {
+    border-color: #0052b9;
+}
+
+.table-comparison .dt-sc-pr-tb-col.selected .dt-sc-tb-content li {
+	color: #fff;
+}
+
+.table-comparison .dt-sc-colored-box.blue, .dt-sc-pr-tb-col.blue {
+    background: #0091d9;
+    border-color: #0052b9;
+}
+
+.table-comparison .dt-sc-pr-tb-col.grey .dt-sc-tb-header .dt-sc-price, 
+.table-comparison .dt-sc-pr-tb-col.grey .dt-sc-buy-now .dt-sc-button {
+    background: #898c91;
+}
+
+.table-comparison .dt-sc-pr-tb-col.grey .dt-sc-tb-content li {
+    border-color: #898c91;
+}
+
+.table-comparison .dt-sc-colored-box.grey, .dt-sc-pr-tb-col.grey {
+    background: #bbbdc0;
+    border-color: #898c91;
+}
+
+.table-comparison .dt-sc-pr-tb-col.selected .dt-sc-tb-header .dt-sc-price, 
+.table-comparison .dt-sc-pr-tb-col:hover .dt-sc-tb-header .dt-sc-price {
+      padding:  20px;  
+}
+
+.moms-rule .dt-sc-title:after,
+.lucky-kids .dt-sc-title:after {
+    background-image: url(images/titles_bg_white.png);
+    background-color: transparent !important;
+}
+
+.prod-intro p{
+	    font-family: 'Bubblegum Sans', cursive;
+		font-size: 25px;
+}
+
+.expert-name, .dt-sc-team .team-details h4 {
+	color: #0091d9 ;
+	 font-family: 'Bubblegum Sans', cursive;
+}
+
+.expert-name {
+	font-size:25px;
+}
+
+.dt-sc-ico-content.type2  {
+    display: inherit; 
+} 
+
+.list-stars .dt-sc-ico-content.type2 h4 {
+    margin-bottom: 0px;
+    line-height: 30px;
+    padding-left: 63px;
+}
+
+.list-stars .dt-sc-ico-content.type2 .icon span  {
+	border-color: transparent;
+	background-color: #fdbb17;
+	width: 30px;
+    height: 30px; text-align: center;
+    line-height: 25px;
+	 
+}
+.lucky-kids .dt-sc-tabs-vertical-container {
+    background-color: #fff;
+}
+
+.lucky-kids ul.dt-sc-tabs-vertical-frame li a {
+	border-radius:0 !important
+}
+
+.lucky-kids   ul.dt-sc-tabs-vertical-frame li a.current {
+	background-color: #eb1c22;
+ }
+ 
+ 
+ .lucky-kids ul.dt-sc-tabs-vertical-frame li a {
+     background-color: #fdbb17;
+ }
+ 
+ .logo {
+    padding: 15px 0px 5px  0;
+}
+
+ul.products li .product-rating-wrapper,
+ul.products li .product-details .price ,
+.bn-readmore{
+    margin: 15px 0px 0px; 
+}
+
+.fa-shopping-basket:before {
+    font-size: 0.8em;
+}
+
+.fullwidth-section {
+    background-size: cover;
+}
+
+.nl-signup h3 {
+	margin-bottom: 0;
+}
+
+.nl-email {
+	    font-family: Lato , sans-serif !important;
+		font-size:22px !important;
+		    padding: 13px 18px !important;
+}
+
+.nl-button { 
+background-color: #0091d9 !important;
+font-size:20px !important;
+    padding: 15px 24px  !important;
+}
+
+.copyright .copyright-info {
+    font-size: 14px;
+}
+
+.dt-sc-testimonial .author {
+    float: left;
+    margin: 0;
+    display: block;
+    max-width: 0;
+}
+
+.dt-sc-testimonial .author-meta p  {
+    display: inline;
+}
+
+.rating-5 {
+    width: 130%;
+}
+
+.rating-review:before, .author-rating {
+   
+    top: -13px;
+}
+
+header ul.dt-sc-social-icons li a.envelope:before, .fa-envelope:before {
+  
+    content: "\f16d" !important;
+}
+
+.moms-rule p{
+	font-size:28px;
+	line-height: 38px;
+}
+
+.custom-menu .container {
+	text-align:center;
+}
+
+.custom-menu .container  .dt-sc-button.medium {
+    margin-right: 5px;
+}
+
+.anchor {
+	color: transparent;
+	    height: 0;
+		display: block;
+    position: relative;
+    top: -170px;
+    visibility: hidden;
+}
+
+/*---- PUT THIS BACK WHEN IMAGES ARE READY----*/
+
+.dt-sc-team .image{
+	display:none;
+}
+
+.dt-sc-tb-content li,
+.dt-sc-testimonial .author-meta p,
+.dt-sc-button.medium,
+.dt-sc-team h6 {
+    font-size: 25px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], textarea, input.text, input[type="search"], input[type="submit"], button, input[type="button"], button[type=submit] {
+	    font-family: 'Lato', sans-serif;
+		font-size:22px;
+		padding: 12px 8px;
+}
+
+.dt-sc-testimonial q {
+    font-size: 20px;
+	 
+}
+
+.woocommerce .star-rating, .woocommerce-page .star-rating {
+    width: 140px;
+}
+
+select {
+	  font-family: 'Lato', sans-serif;
+}
+
+.why-protein-section {
+	background-color: #fff;
+	padding: 0 30px;
+}
+
+#wc-authorize-net-aim-csc {
+	width:100px !important;
+}
+
+.woocommerce form .form-row label, .woocommerce-page form .form-row label {
+    margin: 0;
+}
+
+#primary form p {
+    margin-bottom: 10px;
+}
+
+.woocommerce table.shop_table.cart .product-quantity .quantity input.qty {
+    width: 70px;
+    height: 50px;
+	font-size: 22px;
+	color: #5c5c5c;
+}
+
+.container-interstitial {
+	width:100% ;
+	margin: 0 auto;
+}
+
+.container-interstitial .dt-sc-two-third{
+	margin: 0px 2% 20px  0;
+}
+
+
+.container-interstitial .dt-sc-one-third {
+	    text-align: center;
+		    margin: 0;
+}
+
+
+.popmake.theme-2145, .popmake.theme-interstitial {
+    padding: 40px 40px 20px 40px !important;
+}
+
+.popmake.theme-2145 {
+	    background-image: url(https://pickyeatersrule.com/wp-content/uploads/2014/12/top-bg.jpg);
+    background-attachment: fixed;
+    background-position: 50% 131px;
+    background-repeat: repeat;
+}
+
+@media only screen and (max-width: 1280px) and (min-width: 768px) {
+#main-menu > ul.menu > li > a {
+     
+     font-size: inherit !important
+}
+}
+
+.page-template-tpl-fullwidth-nofooter-php .breadcrumb-section {
+    
+    margin-bottom:0;
+}
+
+.page-template-tpl-fullwidth-nofooter-php #main {
+    padding: 0px;
+}
+
+.nofooter-height {
+	    height: 400px;
+		    background-position: 50% 0;
+}
+
+.page-id-2201 .static-footer,
+.page-id-2202 .static-footer,
+.page-id-2233 .static-footer  {
+	    margin-top: -112px !important;
+}
